@@ -1,0 +1,35 @@
+name: github_clone
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+   sdk: flutter
+  dio: ^5.8.0+1
+  flutter_svg: ^2.0.16
+  get: ^4.7.2
+  sqflite: ^2.4.1
+  uuid: ^4.5.1
+  cached_network_image: ^3.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+       - asset: assests/fonts/poppins/Poppins-Regular.ttf
+
+  assets:
+    - assests/svg_icons/github.svg
